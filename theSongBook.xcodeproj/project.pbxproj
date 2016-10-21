@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8BB96581DBACDFF001E1788 /* SongListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BB96571DBACDFF001E1788 /* SongListCell.swift */; };
 		C8F63ACD1DBAC39300A26A2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F63ACC1DBAC39300A26A2C /* AppDelegate.swift */; };
 		C8F63ACF1DBAC39300A26A2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F63ACE1DBAC39300A26A2C /* ViewController.swift */; };
 		C8F63AD21DBAC39300A26A2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8F63AD01DBAC39300A26A2C /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C8BB96571DBACDFF001E1788 /* SongListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongListCell.swift; sourceTree = "<group>"; };
 		C8F63AC91DBAC39300A26A2C /* theSongBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theSongBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F63ACC1DBAC39300A26A2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8F63ACE1DBAC39300A26A2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				C8F63AD31DBAC39300A26A2C /* Assets.xcassets */,
 				C8F63AD51DBAC39300A26A2C /* LaunchScreen.storyboard */,
 				C8F63AD81DBAC39300A26A2C /* Info.plist */,
+				C8BB96571DBACDFF001E1788 /* SongListCell.swift */,
 			);
 			path = theSongBook;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8BB96581DBACDFF001E1788 /* SongListCell.swift in Sources */,
 				C8F63ACF1DBAC39300A26A2C /* ViewController.swift in Sources */,
 				C8F63ACD1DBAC39300A26A2C /* AppDelegate.swift in Sources */,
 			);
@@ -505,6 +509,7 @@
 				C8F63AF31DBAC39300A26A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8F63AF41DBAC39300A26A2C /* Build configuration list for PBXNativeTarget "theSongBookTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				C8F63AF61DBAC39300A26A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8F63AF71DBAC39300A26A2C /* Build configuration list for PBXNativeTarget "theSongBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				C8F63AF91DBAC39300A26A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
